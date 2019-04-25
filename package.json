@@ -5,8 +5,6 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "postinstall": "npm run prestart:prod",
-    "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\"",
     "start": "ts-node -r tsconfig-paths/register src/main.ts",
     "start:dev": "nodemon",
